@@ -4,6 +4,33 @@ An organ age prediction tool based on proteomic data.
 
 The predictor uses **Olink NPX proteomic measurements** together with sample metadata to generate predictions.
 
+## Repository Contents
+```text
+├── README.md
+├── tutorial.ipynb
+├── pre.cp39-win_amd64.pyd 
+└── model/ 
+    └── model.bin (an empty file)
+```
+
+The real model file are distributed separately through the GitHub Releases page.
+
+Download the following files from the latest release:
+
+model.bin
+
+After downloading, organize the files as follows:
+
+```text
+your_project/
+├── tutorial.ipynb
+├── pre.cp39-win_amd64.pyd
+├── metadata.csv
+├── protein.csv
+└── model/
+    └── model.bin
+```
+
 ## System Requirements
 
 The provided compiled module:
