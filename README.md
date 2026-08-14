@@ -15,7 +15,7 @@ The predictor uses **Olink NPX proteomic measurements** together with sample met
 
 The real model file are distributed separately through the GitHub Releases page.
 
-Download the following files from the latest release:
+Download the following file from the latest release:
 
 model.bin
 
